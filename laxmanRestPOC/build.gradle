@@ -23,7 +23,24 @@ dependencies {
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:21.0'
 
-    // Use JUnit test framework
-    testImplementation 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/org.testng/testng
+       testImplementation group: 'org.testng', name: 'testng', version: '6.14.3'
+    
+    
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+       testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '4.3.3'
+       
+       // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+        implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.12.0'
+        
+        // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.0'
+
+// https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path
+implementation group: 'com.jayway.jsonpath', name: 'json-path', version: '2.5.0'
+
+        
+       
+    
 }
 
